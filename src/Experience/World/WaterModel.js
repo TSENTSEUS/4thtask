@@ -28,7 +28,7 @@ export default class WaterModel {
                 distortionScale: 3.7,
             }
         )
-        this.water.position.y = .15;
+        this.water.position.y = .02;
         this.water.rotation.x = - Math.PI / 2;
         this.water.material.uniforms.size.value = 10;
         this.scene.add( this.water );

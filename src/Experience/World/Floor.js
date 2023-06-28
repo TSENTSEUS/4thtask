@@ -14,6 +14,7 @@ export default class Floor
     }
     setModel()
     {
+        this.model.position.y = .05;
         this.scene.add(this.model);
         this.setTexture()
     }
@@ -21,7 +22,6 @@ export default class Floor
         this.model.traverse((child) => {
             if(child instanceof THREE.Mesh)
             {
-                console.log(child)
                 child.material.color.set('orange');
 
             }

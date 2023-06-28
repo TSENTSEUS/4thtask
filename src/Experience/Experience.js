@@ -1,5 +1,4 @@
 import * as THREE from 'three'
-
 import Sizes from './Utils/Sizes.js'
 import Time from './Utils/Time.js'
 import Camera from './Camera.js'
